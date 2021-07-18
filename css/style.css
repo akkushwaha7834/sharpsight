@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Asap, Arial, sans-serif;
+}
+.nav_bar_section{
+	background: #fff;
+	box-shadow: 1px 3px 5px 0px rgba(0,0,0,0.75);
+	padding: 20px 0;
+}
+.web_logo{
+	width: 40%;
+}
+
+.cta_top_bar{
+	text-align: right;
+	padding: 20px 0;
+}
+.bttn_form{
+	color: #006834;
+    background-color: #ffffff;
+    border-color: #006834;
+    padding: 10px 30px;
+}
+.bttn_form:hover, .bttn_form:focus{
+	color: #006834;
+    background-color: #ffffff;
+    border-color: #006834;
+    padding: 10px 30px;
+    box-shadow: 0 0 0 0.2rem rgb(44 129 87);
+}
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+	color: #006834;
+    background-color: #ffffff;
+    border-color: #006834;
+}
+.theme-btn i {
+	position: absolute;
+	top: -1px;
+	right: -1px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	background: #006834;
+	font-size: 17px;
+	color: #fff;
+	border-radius: 50%;
+	transition: all 900ms ease;
+}
+.fa-angle-right:after {
+	content: "\f105";
+}
+.theme-btn {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  font-size: 17px;
+  padding: 12px 60px 12px 30px;
+  background: #fff;
+  line-height: 25px;
+  color: #006834;
+  border: 1px solid #006834;
+  font-weight: 500;
+  border-radius: 30px;
+  text-transform: capitalize;
+  transition: all 500ms ease;
+  cursor: pointer;
+  z-index: 1;
+}
+.theme-btn:hover:after {
+	transform: scale(1, 1);
+	transform-origin: bottom left;
+}
+.theme-btn:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	content: "";
+	background-color: #006834;
+	border-radius: 30px;
+	transform: scale(0, 1);
+	transform-origin: top right;
+	transition: transform 500ms;
+}
+.theme-btn:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.banner{
+	background: url(../images/banner_new.jpg);
+	background-size: cover;
+	padding: 100px 0px;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+}
+.banner_form{
+	float: right;
+}
+.banner .banner_ul .banner_li{
+	list-style: none;
+	font-size: 22px;
+	line-height: 30px;
+	background: url(../images/tick.png) no-repeat left 5px;
+    list-style: none;
+    padding: 0 0 0px 30px;
+}
+.banner_heading{
+	font-size: 40px;
+}
+.banner_form{
+	padding: 50px;
+	background: #006834a3;
+	border-radius: 30px;
+}
+.banner_content{
+	padding: 50px;
+	border-radius: 30px;
+}
+.eye_specialities_section{
+	margin-bottom: 100px;
+}
+
+.card {
+    cursor: pointer
+}
+.eye_specialities_section{
+	text-align: center;
+}
+.specialities {
+    font-size: 40px;
+    font-weight: 500;
+    margin: 100px 0 30px 0;
+}
+
+.card.hover,
+.card:hover {
+    box-shadow: 0 15px 25px rgb(112 170 146 / 44%);
+}
+
+.card-title {
+    font-weight: 600
+}
+
+.eye_specialities_section_row_one{
+	margin-bottom: 20px;
+	justify-content: center;
+}
+.eye_specialities_section_row_two{
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.card{
+	border: 1px solid rgb(39 126 86);
+}
